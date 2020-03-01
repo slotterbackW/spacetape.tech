@@ -1,10 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+import './styles.css'
+
 const App = () => (
-  <div>
-    <h1>spacetape.tech</h1>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeFR7NegphO9xNVpPoEMKe1ohUArfFv5dJd9UlP1-rN6cwptw/viewform?embedded=true" width="100%" height="380" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  <div className="body">
+    <h1 className="title">spacetape.tech</h1>
+    <p>Website coming soon...</p>
+    <p>For now, please submit your order through our</p>
+    <a href="" target="_blank" rel="noopener noreferrer" className="spacetape-form-link"><span className="link-text">Order Form</span></a>
   </div>
 )
 
