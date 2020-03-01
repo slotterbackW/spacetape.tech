@@ -4,16 +4,19 @@
   right: 0;
   bottom: 0;
   left: 0;
+  padding: 0 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: 'Overpass', sans-serif;
+  text-align: center;
 }
 
 .title {
-  font-size: 8rem;
+  font-size: 11vw;
   font-family: 'Permanent Marker', sans-serif;
+  word-break: break-all;
   margin: 0;
 }
 
