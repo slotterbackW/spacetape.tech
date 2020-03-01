@@ -28400,7 +28400,7 @@ var App = function App() {
   }, _react.default.createElement("h1", {
     className: "title"
   }, "spacetape.tech"), _react.default.createElement("p", null, "Website coming soon..."), _react.default.createElement("p", null, "For now, please submit your order through our"), _react.default.createElement("a", {
-    href: "",
+    href: "https://docs.google.com/forms/d/e/1FAIpQLSd2pRI53jkdv-Cgt7D3iwcDOVUc1isWDjcmpc5zZ_dIk6cuaQ/viewform?usp=sf_link",
     target: "_blank",
     rel: "noopener noreferrer",
     className: "spacetape-form-link"
