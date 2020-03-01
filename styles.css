@@ -8,9 +8,21 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-image: url("./images/favicon.png");
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   font-family: 'Overpass', sans-serif;
   text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 3rem;
+  font-size: 2vw;
+  font-weight: bold;
 }
 
 .title {
@@ -25,10 +37,10 @@
   padding: 3rem;
   border: 1px solid black;
   border-radius: 5px;
-  background-color: black;
+  background-color: purple;
   color: white;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 2vw;
   font-family: 'Permanent Marker', sans-serif;
   box-shadow: 10px 5px 5px red;
 }

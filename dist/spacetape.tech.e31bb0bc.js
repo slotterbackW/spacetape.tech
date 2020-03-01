@@ -28383,7 +28383,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
+},{"./images/favicon.png":[["favicon.8003f84c.png","images/favicon.png"],"images/favicon.png"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
@@ -28397,6 +28397,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var App = function App() {
   return _react.default.createElement("div", {
     className: "body"
+  }, _react.default.createElement("div", {
+    className: "container"
   }, _react.default.createElement("h1", {
     className: "title"
   }, "spacetape.tech"), _react.default.createElement("p", null, "Website coming soon..."), _react.default.createElement("p", null, "For now, please submit your order through our"), _react.default.createElement("a", {
@@ -28406,7 +28408,7 @@ var App = function App() {
     className: "spacetape-form-link"
   }, _react.default.createElement("span", {
     className: "link-text"
-  }, "Order Form")));
+  }, "Order Form"))));
 };
 
 var container = document.getElementById("app");
