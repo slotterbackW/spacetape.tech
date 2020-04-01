@@ -16,7 +16,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
   text-shadow: 0 0 2rem white;
   text-align: center;
   color: white;
@@ -26,11 +26,21 @@
   font-weight: bold;
 }
 
+.text-container {
+  display: flex;
+  align-items: center;
+}
+
 .title {
   font-size: 10vw;
-  font-family: 'Permanent Marker', sans-serif;
+  font-family: "Permanent Marker", sans-serif;
   word-break: break-all;
   margin: 0;
+}
+
+.ig-link {
+  margin-left: 1rem;
+  color: white;
 }
 
 .spacetape-form-link {
@@ -42,7 +52,7 @@
   color: white;
   text-decoration: none;
   font-size: 2vw;
-  font-family: 'Permanent Marker', sans-serif;
+  font-family: "Permanent Marker", sans-serif;
   box-shadow: 10px 5px 5px red;
 }
 

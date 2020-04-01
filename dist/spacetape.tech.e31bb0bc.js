@@ -28311,7 +28311,9 @@ if ("development" === 'production') {
 } else {
   module.exports = require('./cjs/react-dom.development.js');
 }
-},{"./cjs/react-dom.development.js":"node_modules/react-dom/cjs/react-dom.development.js"}],"node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+},{"./cjs/react-dom.development.js":"node_modules/react-dom/cjs/react-dom.development.js"}],"images/insta_logo.png":[function(require,module,exports) {
+module.exports = "/insta_logo.6527bd44.png";
+},{}],"node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -28390,6 +28392,8 @@ var _react = _interopRequireDefault(require("react"));
 
 var _reactDom = _interopRequireDefault(require("react-dom"));
 
+var _insta_logo = _interopRequireDefault(require("./images/insta_logo.png"));
+
 require("./styles.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -28401,20 +28405,27 @@ var App = function App() {
     className: "container"
   }, _react.default.createElement("h1", {
     className: "title"
-  }, "spacetape.tech"), _react.default.createElement("p", null, "Website coming soon..."), _react.default.createElement("p", null, "For now, please submit your order through our"), _react.default.createElement("a", {
+  }, "spacetape.tech"), _react.default.createElement("p", {
+    className: "text-container"
+  }, _react.default.createElement("img", {
+    src: _insta_logo.default,
+    width: "32px"
+  }), _react.default.createElement("a", {
+    className: "ig-link",
+    href: "https://www.instagram.com/spacetape_tech/",
+    target: "_blank"
+  }, "spacetape_tech")), _react.default.createElement("p", null, "Website coming soon..."), _react.default.createElement("p", null, "For now, please submit your order through our"), _react.default.createElement("a", {
     href: "https://docs.google.com/forms/d/e/1FAIpQLSd2pRI53jkdv-Cgt7D3iwcDOVUc1isWDjcmpc5zZ_dIk6cuaQ/viewform?usp=sf_link",
     target: "_blank",
     rel: "noopener noreferrer",
     className: "spacetape-form-link"
-  }, _react.default.createElement("span", {
-    className: "link-text"
-  }, "Order Form"))));
+  }, "Order Form")));
 };
 
 var container = document.getElementById("app");
 
 _reactDom.default.render(_react.default.createElement(App, null), container);
-},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./styles.css":"styles.css"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./images/insta_logo.png":"images/insta_logo.png","./styles.css":"styles.css"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -28442,7 +28453,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61722" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65471" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
