@@ -38,8 +38,12 @@
   margin: 0;
 }
 
+.ig-logo {
+  width: 4vw;
+}
+
 .ig-link {
-  margin-left: 1rem;
+  margin-left: 2vw;
   color: white;
 }
 

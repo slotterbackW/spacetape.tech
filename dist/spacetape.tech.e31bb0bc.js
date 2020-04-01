@@ -28409,7 +28409,7 @@ var App = function App() {
     className: "text-container"
   }, _react.default.createElement("img", {
     src: _insta_logo.default,
-    width: "32px"
+    class: "ig-logo"
   }), _react.default.createElement("a", {
     className: "ig-link",
     href: "https://www.instagram.com/spacetape_tech/",
@@ -28453,7 +28453,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65471" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52239" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

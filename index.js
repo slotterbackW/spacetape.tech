@@ -9,7 +9,7 @@ const App = () => (
     <div className="container">
       <h1 className="title">spacetape.tech</h1>
       <p className="text-container">
-        <img src={InstaLogo} width="32px" />
+        <img src={InstaLogo} class="ig-logo" />
         <a
           className="ig-link"
           href="https://www.instagram.com/spacetape_tech/"
